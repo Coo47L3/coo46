@@ -1,0 +1,68 @@
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0xCE, 0x15, 0x91, 0xAE, 0xC0, 0x8F, 0x10, 0x5A}
+#define VIAL_UNLOCK_COMBO_ROWS {3, 1}
+#define VIAL_UNLOCK_COMBO_COLS {0, 11}
+
+#define LAYER_STATE_8BIT
+
+#define DYNAMIC_KEYMAP_MACRO_COUNT 16
+
+#define VIAL_TAP_DANCE_ENTRIES 8
+#define VIAL_COMBO_ENTRIES 8
+
+#define WS2812_PIO_USE_PIO1
+#define WS2812_DI_PIN GP0
+
+#define RGB_MATRIX_LED_COUNT 46
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 96
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
+//#define RGBLIGHT_LAYERS
+//#define RGBLIGHT_MAX_LAYERS 6
+
+// Mouse key speed
+// カーソルキー入力から反応までの遅延
+#undef  MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY 32
+
+// カーソルの初期移動量
+#undef  MOUSEKEY_MOVE_DELTA
+#define MOUSEKEY_MOVE_DELTA 1
+
+// カーソルキーのレート
+#undef  MOUSEKEY_INTERVAL
+#define MOUSEKEY_INTERVAL 16
+
+// カーソルの移動スピード
+#undef  MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED 8
+
+// カーソル操作がトップスピードになるまでの時間
+#undef  MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX 32
+
+// カーソルの初期速度
+#undef MOUSEKEY_INITIAL_SPEED
+#define MOUSEKEY_INITIAL_SPEED   1
+
+// ホイールキー入力から反応までの遅延
+#undef  MOUSEKEY_WHEEL_DELAY
+#define MOUSEKEY_WHEEL_DELAY 0
+
+// ホイールキーのレート
+#undef  MOUSEKEY_WHEEL_INTERVAL
+#define MOUSEKEY_WHEEL_INTERVAL 64
+
+// ホイールの移動スピード
+#undef  MOUSEKEY_WHEEL_MAX_SPEED
+#define MOUSEKEY_WHEEL_MAX_SPEED 2
+
+// ホイール操作がトップスピードになるまでの時間
+#undef  MOUSEKEY_WHEEL_TIME_TO_MAX
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 64
+
+#define NO_ACTION_ONESHOT
+
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
