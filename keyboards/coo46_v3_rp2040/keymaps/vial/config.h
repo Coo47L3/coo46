@@ -18,8 +18,6 @@
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 96
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
-//#define RGBLIGHT_LAYERS
-//#define RGBLIGHT_MAX_LAYERS 6
 
 // Mouse key speed
 // カーソルキー入力から反応までの遅延
